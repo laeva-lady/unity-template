@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alice/personal/dev/unity/template/FS_Library/fsControl.fsproj": {}
+  },
+  "projects": {
+    "/home/alice/personal/dev/unity/template/FS_Library/fsControl.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alice/personal/dev/unity/template/FS_Library/fsControl.fsproj",
+        "projectName": "fsControl",
+        "projectPath": "/home/alice/personal/dev/unity/template/FS_Library/fsControl.fsproj",
+        "packagesPath": "/home/alice/.nuget/packages/",
+        "outputPath": "/home/alice/personal/dev/unity/template/FS_Library/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alice/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/9.0.108/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[9.0.101, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.7, 9.0.7]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
